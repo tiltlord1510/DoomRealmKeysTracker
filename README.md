@@ -14,6 +14,8 @@
 * **📐 Resizable & Moveable:** Freely drag the overlay frame anywhere on screen, and scale its dimensions using the bottom-right grabber handle.
 * **📍 Minimap Button:** Movable minimap icon for quick toggling and access.
 * **⚙️ In-Game Settings Panel:** Integrated into WoW's native Interface Options menu (`/drkt` or `/doomkeys`).
+* <img width="327" height="324" alt="image" src="https://github.com/user-attachments/assets/b99e32cf-4315-438f-a834-961b5f53e2c6" />
+
 
 ---
 
