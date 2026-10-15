@@ -17,6 +17,7 @@
 
 ## 🖼️ Preview
 <img width="327" height="324" alt="image" src="https://github.com/user-attachments/assets/b99e32cf-4315-438f-a834-961b5f53e2c6" />
+<img width="655" height="665" alt="image" src="https://github.com/user-attachments/assets/da3dc9f9-5004-48a2-8648-de81d83a08a3" />
 
 
 ---
