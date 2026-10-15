@@ -1,0 +1,9 @@
+## Interface: 90207
+## Title: Doom Realm Key Tracker
+## Notes: Tracks 8 specific items in a resizable, backgroundless overlay frame with a minimap button and options panel.
+## Author: Custom
+## Version: 1.2.0
+## OptionalDeps: LibSharedMedia-3.0, SharedMedia
+## SavedVariables: DoomRealmKeyTrackerDB
+
+DoomRealmKeyTracker.lua
