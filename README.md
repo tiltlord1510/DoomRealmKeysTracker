@@ -1,32 +1,52 @@
-# DoomRealmKeysTracker
-Doom Realm Key Tracker is a lightweight, standalone World of Warcraft Addon designed for Shadowlands 9.2.7. It provides a clean, backdropless UI overlay to track and display inventory counts for 8 specific key items in real-time directly from your bags and bank.
+# 🔑 Doom Realm Key Tracker
 
+![WoW Version](https://img.shields.io/badge/WoW-9.2.7-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-✨ Features
+**Doom Realm Key Tracker** is a lightweight, standalone World of Warcraft Addon built for **Shadowlands 9.2.7**. It provides a clean, backdropless UI overlay to track and display real-time inventory counts for **8 specific key items** directly from your bags and bank.
 
-    🔑 Live Item Tracking: Continuously monitors item counts across bags and bank with automatic color coding for items in stock vs. out of stock.
+---
 
-    👻 Transparent Overlay Design: A clean, borderless display that blends seamlessly into your interface without cluttering your screen.
+## ✨ Features
 
-    📐 Resizable & Draggable: Click and drag the overlay anywhere on screen or resize it on the fly using the bottom-right drag handle.
+* **🔑 Live Item Tracking:** Continuously monitors item counts across bags and bank with automatic color coding for items in stock vs. zero count.
+* **👻 Borderless Overlay:** Backgroundless design that integrates seamlessly into your UI without screen clutter.
+* **📐 Resizable & Moveable:** Freely drag the overlay frame anywhere on screen, and scale its dimensions using the bottom-right grabber handle.
+* **📍 Minimap Button:** Movable minimap icon for quick toggling and access.
+* **⚙️ In-Game Settings Panel:** Integrated into WoW's native Interface Options menu (`/drkt` or `/doomkeys`).
 
-    📍 Minimap Button: Moveable minimap button allows instant show/hide toggling with a single click.
+---
 
-    ⚙️ In-Game Settings Panel: Built directly into WoW's native Interface Options menu (/drkt or /doomkeys).
+## 🎨 Advanced Customization
 
-🎨 Deep Customization
+* **🔡 Font Selection & Scaling:**
+  * Custom scrollable font menu with live typeface previews.
+  * Full **LibSharedMedia-3.0** support (*ElvUI, SharedMedia, Details!, WeakAuras*).
+  * Built-in fallback fonts (*Friz Quadrata, Arial Narrow, Skurri, Morpheus, 2002, 2002B, FRIQT__CYR*).
+  * Text size slider (font scale 8pt–24pt).
 
-    🔤 Font Selector & Scaling: Custom scrollable font picker supporting native fonts (Friz Quadrata, Arial Narrow, Skurri, Morpheus, etc.) and full LibSharedMedia-3.0 integration (ElvUI, SharedMedia, Details!, WeakAuras).
+* **🎨 Custom Color Pickers:**
+  * Header title color.
+  * Individual colors for every item slot (Items 1 through 8).
+  * Separate colors for positive counts (`> 0`) and empty counts (`= 0`).
 
-    🎨 Per-Item Color Options: Complete color picker support for header text, zero vs. positive item counts, and individual item name colors for all 8 tracked slots.
+---
 
-    🖱️ Quick Shortcuts: Right-click the overlay frame or Shift + Left-Click the minimap button to jump straight into the settings menu.
+## 🖱️ Controls & Shortcuts
 
-📦 Installation
+| Action | Shortcut |
+| :--- | :--- |
+| **Toggle Overlay Frame** | Left-Click Minimap Icon |
+| **Open Options Menu** | Right-Click Main Frame OR Shift + Left-Click Minimap Icon |
+| **Move Frame / Minimap Icon** | Left-Click & Drag |
+| **Resize Main Frame** | Drag Bottom-Right Corner Grip |
+| **Slash Commands** | `/drkt` or `/doomkeys` |
 
-    Download the latest release.
+---
 
-    Extract the DoomRealmKeyTracker folder into your WoW AddOns directory:
-    World of Warcraft\_retail_\Interface\AddOns\
+## 📦 Installation
 
-    Launch World of Warcraft and ensure Doom Realm Key Tracker is enabled in your AddOn list!
+1. Download or clone this repository.
+2. Place the `DoomRealmKeyTracker` folder inside your WoW AddOns directory:
+   ```text
+   World of Warcraft\_retail_\Interface\AddOns\DoomRealmKeyTracker\
